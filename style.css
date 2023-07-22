@@ -1,0 +1,291 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.container-for-cubical-section {
+	height: 30rem;
+	/* background-image: url('./images/bg.jpg'); */
+	/* background: #333; */
+	/* color: white; */
+	background-repeat: no-repeat;
+	background-attachment: unset;
+	background-size: cover;
+}
+
+.swiper-container {
+	top: 60px;
+	width: 15rem;
+	height: 25rem;
+	margin: 20px auto;
+}
+
+.swiper-slide {
+	background-position: center;
+	background-size: cover;
+}
+
+.swiper-container .swiper-slide .imgBx {
+	position: absolute;
+	bottom: 1rem;
+	width: 15rem;
+	height: 15rem;
+}
+
+.swiper-container .swiper-slide .imgBx > img {
+	position: absolute;
+	border-radius: 2rem;
+	top: 0;
+	left: 0;
+	width: 15rem;
+	height: 15rem;
+	object-fit: fill;
+}
+
+.swiper-container .swiper-slide .content {
+	font-family: 'Dancing Script', cursive;
+	color: black;
+	font-weight: bolder;
+	position: absolute;
+	width: 100%;
+	padding: 4rem 0rem 2rem 0rem;
+	display: inline-block;
+	text-align: center;
+}
+.swiper-container .swiper-slide .content > h3 {
+	text-align: center;
+}
+
+img.animated-gif {
+	width: 320px;
+	height: auto;
+}
+
+.google-play-link {
+	font: bold 2rem Arial;
+	text-decoration: none;
+	color: #333333;
+	padding: 1rem 3rem;
+	border-radius: 2rem;
+}
+
+.google-play-link:hover {
+	font: bold 2rem Arial;
+	text-decoration: none;
+	background-color: rgb(151, 151, 252);
+	color: white;
+}
+
+/* footer */
+
+.footer-top {
+	background: rgb(51, 46, 46);
+	text-align: left;
+	color: #aaa;
+}
+.footer-top h3 {
+	padding-bottom: 10px;
+	color: #fff;
+}
+
+.footer-about img.logo-footer {
+	max-width: 74px;
+	margin-top: 0;
+	margin-bottom: 18px;
+}
+.footer-about p a {
+	border: 0;
+}
+.footer-about p a:hover,
+.footer-about p a:focus {
+	border: 0;
+}
+
+.footer-contact p {
+	word-wrap: break-word;
+}
+.footer-contact i {
+	padding-right: 10px;
+	font-size: 18px;
+	color: #666;
+}
+.footer-contact p a {
+	border: 0;
+}
+.footer-contact p a:hover,
+.footer-contact p a:focus {
+	border: 0;
+}
+
+.footer-links a {
+	color: #aaa;
+	border: 0;
+}
+.footer-links a:hover,
+.footer-links a:focus {
+	color: #fff;
+}
+
+.footer-bottom {
+	padding: 15px 0 17px 0;
+	background: #444;
+	text-align: left;
+	color: #aaa;
+}
+
+.footer-social {
+	padding-top: 3px;
+	text-align: right;
+}
+.footer-social a {
+	margin-left: 20px;
+	color: #777;
+	border: 0;
+}
+.footer-social a:hover,
+.footer-social a:focus {
+	color: #79a05f;
+	border: 0;
+}
+.footer-social i {
+	font-size: 24px;
+	vertical-align: middle;
+}
+
+.footer-copyright {
+	padding-top: 5px;
+}
+.footer-copyright a {
+	color: #fff;
+	border: 0;
+}
+.footer-copyright a:hover,
+.footer-copyright a:focus {
+	color: #aaa;
+	border: 0;
+}
+
+/* 
+.vedio-container {
+	width: 400px;
+	height: 500px;
+	padding: 50px;
+}
+
+.vedio-slide {
+	background-position: center;
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+} */
+
+/* testimonials */
+.card-main {
+	padding: 50px;
+	border-radius: 10px;
+	min-height: 20rem;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	box-shadow: 0px 4px 8px 0px #538d70;
+}
+
+.card-0 {
+	color: #fff;
+	background-color: #64b18a;
+	position: relative;
+	border-radius: 10px;
+	min-height: 15rem;
+}
+
+.carousel-indicators li {
+	cursor: pointer;
+	border-radius: 50% !important;
+	width: 10px;
+	height: 10px;
+}
+
+.profile {
+	color: #000;
+	background-color: #ffd54f;
+	position: absolute;
+	left: 0.3rem;
+	margin: auto;
+	top: 1.5rem;
+	border-radius: 8px;
+	border-top-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.profile-pic {
+	width: 5rem;
+	height: 5rem;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.content-testimonial {
+	min-height: 10rem;
+	margin-left: 10rem;
+	margin-right: 3rem;
+	margin-top: 5rem;
+}
+
+@media screen and (max-width: 600px) {
+	.swiper-container {
+		top: 2rem;
+	}
+
+	.card-main {
+		padding: 30px 10px;
+		max-width: 20rem;
+		margin: auto;
+	}
+
+	.card-0 {
+		min-height: 30rem;
+		max-width: 20rem;
+	}
+
+	.profile {
+		top: 8%;
+	}
+
+	.profile-pic {
+		width: 8rem;
+		height: 8rem;
+	}
+
+	.profile {
+		color: #000;
+		background-color: #ffd54f;
+		position: absolute;
+		margin-left: 3.5rem;
+		top: 2rem;
+		border-radius: 8px;
+		border-top-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+	}
+
+	.content-testimonial {
+		min-height: 8rem;
+		margin: auto;
+		margin-top: auto;
+		padding: 2rem;
+		text-align: center;
+	}
+
+	.carousel-indicators li {
+		cursor: pointer;
+		border-radius: 50% !important;
+		top: -13rem;
+		width: 10px;
+		height: 10px;
+	}
+
+	img.animated-gif {
+		width: 16.5rem;
+		height: auto;
+		border: 2px solid black;
+	}
+}
